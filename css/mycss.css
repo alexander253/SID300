@@ -1,0 +1,508 @@
+html {
+    position: relative;
+
+}
+body{
+  font-family: sans-serif;
+  background: #EEEEEE;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.laptop{
+  display: block;
+  float: right;
+  width: 50%;
+  padding: 30px;
+  padding-right: 0px;
+  border-left: ridge;
+  border-width: 2px;
+  background-color: white;
+  margin-left: 15px;
+}
+
+.main_content{
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+div.desc{
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  box-shadow: 12px 0 15px -4px #cccccc, -12px 0 8px -4px #cccccc;
+
+
+}
+div.desc p{
+  padding-bottom: 15px;
+  border-bottom: ridge;
+  border-width: 2px;
+
+}
+
+div.content{
+  border: none;
+}
+
+.extra_wrapper{
+  border-top: ridge;
+  border-width: 3px;
+  display: flex;
+  font-size: 0.8em;
+}
+
+.extra_wrapper div{
+  border: ridge;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+
+
+.extra{
+  flex: auto;
+}
+
+
+
+.contact_heading{
+  font-size: 1.5em;
+}
+
+
+
+.CDUlogo{
+    position: relative;
+    width:25%;
+    margin-top:-30px;
+  }
+
+h1{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:0 ;
+  padding-right:0;
+  color: white;
+  margin-top: -20px;
+  text-align: center;
+  font-family:sans-serif;
+  background-color: #201644;
+  background-size: 100%;
+  font-size: 2em;
+}
+
+
+.footer{
+  position: absolute;
+  margin-bottom: -200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #201644;
+  color: white;
+  text-align: center;
+
+}
+
+.footer a{
+  text-decoration: none;
+  color: #FFFFFC;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  color: #42858C;
+}
+
+
+.social-link li{
+  font-family: sans-serif;
+  text-align: center;
+  list-style: none;
+  margin: 10px 30px;
+  padding: 20px 20px;
+}
+
+
+
+
+
+h2{
+  font-size: 20px;
+}
+
+li{
+  display: inline;
+}
+
+h3{
+  margin-top: 30px;
+  text-align: center;
+
+
+}
+
+h3 a{
+  text-decoration: none;
+
+}
+
+h3 span{
+  color: white;
+  padding: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-radius: 2px;
+  clear: both;
+  background-color:#f4623a;
+  box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+}
+
+
+
+h4{
+  font-size: 20px;
+}
+
+.item{
+  diplay: block;
+  background-color: #201644;
+  color: white;
+  cursor: point;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin-left: 1px;
+
+}
+
+.item a{
+  color: white;
+  padding: 2px 5px;
+  text-decoration: none;
+}
+
+.desc{
+  margin: auto;
+  text-align: left;
+}
+
+
+.card img{
+  padding: 3px;
+  margin-top: 5px;
+  width: 400px;
+  height: 300px;
+
+}
+
+.all_cards{
+  text-align: center;
+}
+ .wrap{
+   width: auto;
+   margin: auto;
+   text-align: center;
+   display: inline-block;
+ }
+
+.fa-lg{
+  margin-left: 3px;
+}
+
+.extra_wrapper, fa-lg{
+  margin-left: 4px;
+
+}
+
+ .card{
+   display: block;
+   text-align: center;
+   width: 410px;
+   float: left;
+   margin: 15px;
+   border-style: ridge;
+   border-width: 1px;
+   border-radius: 2px;
+   margin-bottom: 100px;
+   box-shadow: 12px 0 15px -4px #cccccc, -12px 0 8px -4px #cccccc;
+   transition: 0.2s linear;
+   background-color: white;
+ }
+
+ .card:hover{
+   cursor: pointer;
+   box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+
+ }
+ .collapsible{
+  display: block;
+  background-color:#201644;
+  color: white;
+  cursor: point;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin-left: 1px;
+}
+
+/*Code from https://cssfx.dev/*/
+
+
+.item, .collapsible{
+  z-index: 1;
+  position: relative;
+  outline: none;
+  border: none;
+
+}
+
+ .item::before, .collapsible::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f4623a;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+.item:hover, .collapsible:hover {
+  cursor: pointer;
+}
+
+.item:hover::before, .collapsible:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+
+
+.content {
+  color: white;
+  padding: 0 17px;
+  overflow: hidden;
+  text-align: left;
+  font-family:arial;
+}
+
+
+.background_img{
+  background-image: url("https://www.anu.edu.au/files/styles/anu_full_920_518/public/guidance/shutterstock_293604095.jpg?itok=glMqF6mS");
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  top:200px;
+
+}
+
+.nav_menu{
+  top: 0;
+  right:0;
+  position: absolute;
+  float: right;
+}
+
+.nav_menu a{
+  color: black;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.nav_menu a ul{
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  display: flex;
+}
+
+
+
+.nav_menu a ul li{
+  height: 30px;
+  line-height: 50px;
+  display: block;
+}
+
+.nav_menu a:hover{
+  background-color: #42858C;
+}
+
+.nav_menu li a:hover:not(.active) {
+  text-decoration: none;
+  background-color: #f4623a;
+  color: white;
+  transition: 0.6s ease
+}
+
+.nav_menu li:hover
+
+.nav_menu li a.active {
+  color: #42858C;
+  background-color:#046273;
+}
+
+.all_cards{
+  margin-top: 50px;
+}
+
+
+
+#hcontent, #hcontent2, #hcontent3{
+  display: none;
+}
+
+.menu_icon{
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  display: none;
+  float: left;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+label{
+  margin-left: -10000px
+}
+
+h5 span{
+  background-color: #046273;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+
+  .laptop{
+    display: none;
+  }
+  .extra_wrapper{
+    flex-direction: column;
+  }
+
+  .extra_wrapper div{
+    padding: 15px;
+    margin: 5px;
+
+  }
+
+.contact_heading{
+  margin-top: 50px;
+
+}
+
+  h3 span{
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+
+body{
+  padding: 0;
+}
+
+.main_content{
+  padding: 7px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+  .nav_menu{
+    display: none;
+    background: #F0F1EB;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    top: 50px;
+    left: 0;
+    transition: 0.5s;
+   }
+
+   .nav_menu ul li{
+     display: block;
+     text-align: center;
+     border: 1px solid gray;
+     padding: 15px 30px;
+     margin-bottom: 10px;
+     background-color: white;
+
+   }
+
+ul{
+  padding-left: 0px;
+}
+    .menu_icon{
+    display: block;
+  }
+
+
+    .card {
+    margin: 0;
+    margin-bottom: 50px;
+    width: 350px;
+  }
+    .card img{
+    width: 340px;
+  }
+    .CDUlogo{
+      margin-top: 0px;
+    width: 50%;
+    left: 110px;
+    margin-bottom: 20px;
+  }
+    h1{
+    margin-top: 50px;
+  }
+
+
+  .footer{
+    width: 100%;
+    text-align: center;
+
+  }
+  .social-link li{
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 10px;
+    padding:0;
+  }
+  .footer-desc{
+    font-size: 10px;
+  }
+
+
+}
