@@ -5,27 +5,52 @@ html {
 body{
   font-family: sans-serif;
   background: #EEEEEE;
-  padding-left: 25px;
-  padding-right: 25px;
 
+}
+
+nav {
+  background-color: blue;
 }
 
 .laptop{
   display: block;
   float: right;
-  width: 35%;
+  width: 400px;
   padding: 30px;
   padding-right: 0px;
   border-left: ridge;
   border-width: 2px;
   background-color: white;
   margin-left: 15px;
-  position: static;
+
 }
 
+.log{
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+
+.mainimg{
+  display: block;
+  float: left;
+  width: 400px;
+  height: auto;
+  padding-right: 15px;
+  border-right: ridge;
+  border-width: 2px;
+  background-color: white;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
 .main_content{
-  margin-right: 120px;
-  margin-left: 120px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 div.desc{
@@ -36,6 +61,7 @@ div.desc{
   padding-right: 20px;
   background-color: white;
   box-shadow: 12px 0 15px -4px #cccccc, -12px 0 8px -4px #cccccc;
+
 
 
 }
@@ -82,6 +108,7 @@ div.content{
     position: relative;
     width:25%;
     margin-top:-30px;
+
   }
 
 h1{
@@ -182,7 +209,11 @@ h4{
   text-align: center;
   outline: none;
   font-size: 15px;
-  margin-left: 1px;
+  margin: 5px;
+  margin-left: 3px;
+
+
+
 
 }
 
@@ -256,7 +287,9 @@ h4{
   text-align: center;
   outline: none;
   font-size: 15px;
-  margin-left: 1px;
+  margin: 3px;
+
+
 }
 
 /*Code from https://cssfx.dev/*/
@@ -371,7 +404,11 @@ h4{
 
 
 
-#hcontent, #hcontent2, #hcontent3, #hcontent4{
+#hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8 {
+  display: none;
+}
+
+.content {
   display: none;
 }
 
@@ -403,11 +440,16 @@ h5 span{
 }
 
 
-.related_animals{
-  margin-top: 30px;
+.headingsep{
+  margin-top: 150px;
 }
 
 
+
+.imageContainer img{
+  width: 400px;
+  height: 200px;
+}
 
 @media only screen and (max-width: 750px) {
 
