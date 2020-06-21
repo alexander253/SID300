@@ -236,6 +236,8 @@ h4{
 .desc{
   margin: auto;
   text-align: left;
+    height: 600px;
+  font-size: 1.5em;
 }
 
 
@@ -476,12 +478,15 @@ h5 span{
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
+
+
 
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 185px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -493,11 +498,19 @@ h5 span{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #f4623a;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #f4623a;}
+
+#glider, #glidercamera{
+  width: 17%;
+}
+
+#uluru {
+  width: 700px;
+}
 
 @media only screen and (max-width: 750px) {
 
