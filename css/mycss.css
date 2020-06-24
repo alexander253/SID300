@@ -585,14 +585,15 @@ h5 span{
 }
 
 
-#toggle, #toggle2, #toggle3{
+#toggle, #toggle2, #toggle3, #toggle4, #toggle5, #toggle6, #toggle7, #toggle8, #toggle9{
   visibility: hidden;
   opacity: 0;
   position: relative;
   z-index: 3;
 }
 
-#toggle:checked ~ dialog, #toggle2:checked ~ dialog, #toggle3:checked ~ dialog   {
+#toggle:checked ~ dialog, #toggle2:checked ~ dialog, #toggle3:checked ~ dialog , #toggle4:checked ~ dialog ,
+#toggle5:checked ~ dialog , #toggle6:checked ~ dialog , #toggle7:checked ~ dialog , #toggle8:checked ~ dialog , #toggle9:checked ~ dialog   {
   display: block;
   z-index: 3;
 }
