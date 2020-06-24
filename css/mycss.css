@@ -585,6 +585,20 @@ h5 span{
 #uluru{
 
 }
+@keyframes appear {
+  0%{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+dialog{
+  animation: appear 350ms ease-in 1;
+  max-width: 500px;
+
+}
+
+
 
 
 #toggle, #toggle2, #toggle3, #toggle4, #toggle5, #toggle6, #toggle7, #toggle8, #toggle9{
