@@ -643,6 +643,14 @@ dialog{
 
 @media only screen and (max-width: 750px) {
 
+  .mainimg2, .mainimg{
+    width: 80%;
+  }
+
+  video{
+    max-width: 300px;
+    max-height: 200px;
+  }
 
   .laptop{
     display: none;
