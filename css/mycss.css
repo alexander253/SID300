@@ -651,10 +651,10 @@ dialog{
   }
 
   .rounded{
-    width: 100px;
-    height: 100px;
-    max-height: 100px;
-    max-width: 100px;
+    width: 120px;
+    height:120px;
+    max-height: 120px;
+    max-width: 120px;
   }
 
   label{
