@@ -35,7 +35,7 @@ nav {
   display: block;
   float: left;
   width: 30%;
-  height: auto;
+  max-height: 500px;
   padding-right: 15px;
   padding-left: 15px;
   background-color: white;
@@ -46,9 +46,9 @@ nav {
  }
 .mainimg2{
   display: block;
-  float: right;
+  float: left;
   width: 23%;
-  height: auto;
+  max-height: 500px;
   border-width: 2px;
   background-color: white;
   margin-right: 15px;
@@ -269,15 +269,15 @@ h4{
 .desc{
   margin: auto;
   text-align: left;
-  height: 800px;
   font-size: 1.5em;
+  overflow: auto;
 }
 
 .desc_animals{
   margin: auto;
   text-align: left;
-  height: 800px;
   font-size: 1.5em;
+  overflow: auto;
 }
 
 .desc_activity{
@@ -291,6 +291,9 @@ h4{
 video{
 padding-right: 20px;
 float: left;
+max-height: 700px;
+max-width: 400px;
+
 }
 
 .card img{
