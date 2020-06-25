@@ -70,7 +70,7 @@ nav {
 .mainimg4{
   display: block;
   float: right;
-  width: 600px;
+  width: 500px;
   height: auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -168,6 +168,7 @@ h1{
   background-color: #201644;
   background-size: 100%;
   font-size: 2em;
+  z-index: -20;
 }
 
 
@@ -284,7 +285,7 @@ h4{
 
 .desc_activity{
   margin: auto;
-  height: 500px;
+
   font-size: 1.5em;
   display: flex;
   justify-content: center;
@@ -566,9 +567,11 @@ h5 span{
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 185px;
+  min-width: 186px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: white;
   z-index: 1;
+  margin-top: 15px;
 }
 
 .dropdown-content a {
@@ -643,8 +646,19 @@ dialog{
 
 @media only screen and (max-width: 750px) {
 
-  .mainimg2, .mainimg{
+  .mainimg2, .mainimg, .mainimg3{
     width: 80%;
+  }
+
+  .rounded{
+    width: 100px;
+    height: 100px;
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+  label{
+        padding: .1em .5em;
   }
 
   video{
