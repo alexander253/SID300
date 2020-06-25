@@ -644,7 +644,7 @@ dialog{
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
 
   .mainimg2, .mainimg, .mainimg3{
     width: 80%;
