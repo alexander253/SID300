@@ -78,6 +78,18 @@ nav {
   margin-right: 15px;
   margin-bottom: 15px;
 }
+
+.mainimg5{
+  display: block;
+  float: right;
+  width: 30%;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: white;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
 .rounded{
   border-radius: 50%;
   width: 150px;
@@ -594,6 +606,13 @@ h5 span{
 #uluru{
 
 }
+
+#choice li{
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+
+}
 @keyframes appear {
   0%{
     opacity: 0;
@@ -624,11 +643,12 @@ dialog{
 }
 
 label{
-  background: skyblue;
+  background: #201644;
   color: white;
   padding: .5em 1em;
   border-radius: 4px;
 }
+
 @keyframes appear {
   0%{
     opacity: 0;
@@ -639,7 +659,17 @@ label{
 dialog{
   animation: appear 350ms ease-in 1;
   max-width: 500px;
+  top: 1000px;
+  color: white;
 
+}
+
+.correct{
+  background-color: green;
+}
+
+.incorrect{
+  background-color: red;
 }
 
 
