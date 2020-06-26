@@ -53,7 +53,9 @@ nav {
   background-color: white;
   margin-right: 15px;
   margin-bottom: 15px;
+
 }
+
 
 .mainimg3{
   display: block;
@@ -297,7 +299,14 @@ h4{
 
 .desc_activity{
   margin: auto;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
 
+.desc_activity_center{
+  margin: auto;
   font-size: 1.5em;
   display: flex;
   justify-content: center;
@@ -649,6 +658,10 @@ label{
   border-radius: 4px;
 }
 
+label:hover{
+  cursor: pointer;
+}
+
 @keyframes appear {
   0%{
     opacity: 0;
@@ -676,8 +689,16 @@ dialog{
 
 @media only screen and (max-width: 900px) {
 
-  .mainimg2, .mainimg, .mainimg3{
+  .mainimg2, .mainimg{
     width: 80%;
+  }
+
+  .mainimg3{
+    width: 100%;
+  }
+
+  #log{
+    display: none;
   }
 
   .rounded{
@@ -685,6 +706,7 @@ dialog{
     height:120px;
     max-height: 120px;
     max-width: 120px;
+    padding-left: none;
   }
 
   label{
