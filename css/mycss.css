@@ -689,7 +689,7 @@ dialog{
 
 @media only screen and (max-width: 900px) {
 
-  .mainimg2, .mainimg{
+  .mainimg2, .mainimg, .mainimg4{
     width: 80%;
   }
 
