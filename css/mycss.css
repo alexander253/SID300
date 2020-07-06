@@ -796,14 +796,14 @@ ul{
 
 .card {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     width: 350px;
     height: 330px;
     border-radius: 5px;
   }
   .card img{
     width: 340px;
-    height: 228px;
+    height: 220px;
   }
 
   .item{
