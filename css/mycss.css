@@ -302,6 +302,13 @@ h4{
   overflow: auto;
 }
 
+.desc_test{
+  margin: auto;
+  text-align: left;
+  font-size: 1.5em;
+  overflow: auto;
+}
+
 .desc_animals{
   margin: auto;
   text-align: left;
