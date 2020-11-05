@@ -54,6 +54,41 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.profile_bundle{
+  float: left;
+  margin: 0;
+  width: 400px;
+  margin-left: -250px;
+}
+
+.profile_bundle img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+
+}
+
+.profile_bundlez{
+  float: right;
+  margin: 0;
+  width: 400px;
+  margin-right: -250px;
+}
+
+.profile_bundlez img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  #profile_pic_cara, #profile_pic_alex, #spons{
+      display: none;
+  }
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -833,6 +868,8 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -10048,7 +10085,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/rabbitrat.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
