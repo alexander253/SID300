@@ -84,9 +84,11 @@ html {
 
 
 @media only screen and (max-width: 900px) {
-  #profile_pic_cara, #profile_pic_alex, #spons{
+  #profile_pic_cara, #profile_pic_alex, #profile_name_alex, #profile_name_cara, #spons{
       display: none;
   }
+
+
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -10157,6 +10159,13 @@ header.masthead h1 {
 .profile_image{
   width: 50%;
   float: left;
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.profile_image_right{
+  width: 50%;
+  float: right;
   padding: 20px;
   padding-right: 50px;
 }

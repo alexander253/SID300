@@ -549,8 +549,9 @@ ul.breadcrumb li a:hover {
   margin-top: 50px;
 }
 
-
-
+#profile_pic_cara, #profile_pic_alex{
+  width: 30%;
+}
 #hcontent, #hcontent2, #hcontent3, #hcontent4, #hcontent5, #hcontent6, #hcontent7, #hcontent8 {
   display: none;
 }
